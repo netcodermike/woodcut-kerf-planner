@@ -1,0 +1,24 @@
+{
+  "command": [
+    "dotnet",
+    "bin/Debug/net8.0/App.dll"
+  ],
+  "expected": {
+    "boards": [
+      {
+        "cuts": [
+          600,
+          397
+        ],
+        "remaining": 0
+      },
+      {
+        "cuts": [
+          400,
+          200
+        ],
+        "remaining": 397
+      }
+    ]
+  }
+}
